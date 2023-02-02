@@ -1,0 +1,481 @@
+{
+    "intents":
+    [
+        {
+            "tag": "room_change",
+            "patterns": ["how","can","i","request","a", "my", "room", "partner", "roommate", "change"],
+            "responses": ["responsetype1", "responsetype2"]
+        },
+        {
+            "tag": "rules_hostal_visitor",
+            "patterns": ["what","are","the","rules", "protocols", "for","visitors","in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "report_maintanence_issue",
+            "patterns": ["how","do","i","report","a","maintenance","issue", "problem", "in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "room_refrigerator",
+            "patterns": ["can","i","have","a","refrigerator", "microwave", "microoven", "in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "quiet_hours",
+            "patterns": ["are","there","any","quiet","silent", "peace", "hours","in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "laundry_pay",
+            "patterns": ["how","do","i","pay","for","laundry", "wash", "clothes", "iron", "clean", "services"],
+            "responses": []
+        },
+        {
+            "tag": "pet_room",
+            "patterns": ["can","i","have","a","pet", "bring", "dog", "cat", "bird", "in","my","room", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "storage_personal",
+            "patterns": ["are","there","any","storage","options","for","personal","items"],
+            "responses": []
+        },
+        {
+            "tag": "hostal_addmission",
+            "patterns": ["how","do","i","renew","my","hostel","contract","for","the","next","semester", "year"],
+            "responses": []
+        },
+        {
+            "tag": "cooking_in_room",
+            "patterns": ["are","there","any","restrictions","on","cooking", "food", "cook", "in","the","hostel","rooms"],
+            "responses": []
+        },
+        {
+            "tag": "return_time",
+            "patterns": ["is","there","a","curfew", "limit", "end", "time", "for","returning","to","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "guest_stay",
+            "patterns": ["can","i","have","guests", "father", "mother", "stay","overnight","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "extra_bedding",
+            "patterns": ["how","do","i","request","extra","bedding","or","linens"],
+            "responses": []
+        },
+        {
+            "tag": "room_decoration",
+            "patterns": ["are","there","any","restrictions","on","decorating", "drawing", "painting","my","room", "wall"],
+            "responses": []
+        },
+        {
+            "tag": "wifi_access",
+            "patterns": ["how","do","i","access","the","internet", "wifi", "in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "air_conditioner",
+            "patterns": ["can","i","have","an","ac","air", "coolers", "conditioner","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "late_checkout",
+            "patterns": ["how","do","i","request","a","late", "night", "checkout"],
+            "responses": []
+        },
+        {
+            "tag": "girl_in_myroom",
+            "patterns": ["are","there","any","restrictions","on","having","guests","of","the","opposite","gender","sex", "girl", "girls", "in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "single_room",
+            "patterns": ["how","can","i","request","a","single", "one", "person", "individual", "room"],
+            "responses": []
+        },
+        {
+            "tag": "alcohol_comsumption",
+            "patterns": ["are","there","any","restrictions","on","alcohol", "cigarette", "liquior", "wine", "bear", "consumption","in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "communal_area",
+            "patterns": ["are","there","any","communal", "common", "room", "hall", "areas","in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "hostel_change",
+            "patterns": ["how","can","i","request","a","transfer","to","a","different","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "smoking",
+            "patterns": ["are","there","any","restrictions","on","smoking", "drinking", "wine", "bear", "in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "cleaning_service",
+            "patterns": ["how","do","i","request","a", "floor", "broom", "cleaning","service","for","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "water_heater",
+            "patterns": ["are","there","any","restrictions","on","having","a","water", "bathing", "warm", "lukewarm", "heater","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "specific_room",
+            "patterns": ["how","can","i","request","a","specific","room","location", "wish", "in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "tv_room",
+            "patterns": ["are","there","any","restrictions","on","having","a","tv","television", "in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "room_lock",
+            "patterns": ["how","do","i","request","a","key","or","lock","change","for","my", "myself"],
+            "responses": []
+        },
+        {
+            "tag": "music_system",
+            "patterns": ["are","there","any","restrictions","on","having","a","music","system", "loud", "speakers", "in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "roomate",
+            "patterns": ["how","can","i","request","a","roommate", "partner", "with","specific","characteristics", "properties"],
+            "responses": []
+        },
+        {
+            "tag": "special_diet",
+            "patterns": ["how","do","i","request","a","special","diet","in","the","hostel's","cafeteria", "mess", "food"],
+            "responses": []
+        },
+        {
+            "tag": "food_report",
+            "patterns": ["what", "if", "mess", "food", "quality", "is", "bad", "worst", "unhealthy", "unhygenic"],
+            "responses": []
+        },
+        {
+            "tag": "study_table",
+            "patterns": ["are","there","any","restrictions","on","having","a","study","table","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "private_bathroom",
+            "patterns": ["how","can","i","request","a","transfer","to","a","hostel","with","private","bathrooms"],
+            "responses": []
+        },
+        {
+            "tag": "bookshelf",
+            "patterns": ["are","there","any","restrictions","on","having","a","bookshelf","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "change_towels",
+            "patterns": ["how","do","i","request","a","change","of","sheets", "towels"],
+            "responses": []
+        },
+        {
+            "tag": "bedside_table",
+            "patterns": ["are","there","any","restrictions","on","having","a","bedside","table","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "air_conditioning",
+            "patterns": ["how","can","i","request","a","transfer","to","a","hostel","with","air","conditioning"],
+            "responses": []
+        },
+        {
+            "tag": "personal_wardrobe",
+            "patterns": ["are","there","any","restrictions","on","having","a","personal","wardrobe","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "lockable_cabinet",
+            "patterns": ["how","do","i","request","a","lockable", "personal", "secret", "vault", "cabinet","or","safe"],
+            "responses": []
+        },
+        {
+            "tag": "lamp",
+            "patterns": ["are","there","any","restrictions","on","having","a","lamp","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "hostal_closer",
+            "patterns": ["how","can","i","request","a","transfer", "move", "shift","to","a","hostel","closer", "near", "to","my","classes"],
+            "responses": []
+        },
+        {
+            "tag": "rug",
+            "patterns": ["are","there","any","restrictions","on","having","a","rug","blanket","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "pest_control",
+            "patterns": ["how","do","i","request","a","pest", "rats", "cockroach", "ants", "mosquitoes", "control","service"],
+            "responses": []
+        },
+        {
+            "tag": "hostl_transfer",
+            "patterns": ["how","can","i","request","a","transfer","to","a","hostel","with","a","specific","roommate", "partner"],
+            "responses": []
+        },
+        {
+            "tag": "furniture_change",
+            "patterns": ["how","do","i","request","a","change","of","room","furniture", "table", "bed", "almirah", "chair", "door", "window", "bed", "broken"],
+            "responses": []
+        },
+        {
+            "tag": "water_filter",
+            "patterns": ["how","many", "drinking", "water","filters","coolers","fridges","are","there","and","where"],
+            "responses": []
+        },
+        {
+            "tag": "fire",
+            "patterns": ["what","about","the","fire","flame","gas","safety", "room", "emergency", "danger"],
+            "responses": []
+        },
+        {
+            "tag": "mess_timetable",
+            "patterns": ["what","is","the","mess", "time", "table", "food", "timetable"],
+            "responses": []
+        },
+        {
+            "tag": "mess_timing",
+            "patterns": ["what","is","the","mess", "open", "close", "timing", "schedule"],
+            "responses": []
+        },
+        {
+            "tag": "parking",
+            "patterns": ["can","we","park","vehicle","bike","car", "cycle", "bicycle", "in","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "total_rooms",
+            "patterns": ["how","many","rooms","are","there","in","the","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "room_party",
+            "patterns": ["can","we","do","party","parties", "celebrate", "in","the","room", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "nonveg",
+            "patterns": ["can","we","get","eat","non","veg", "meat"],
+            "responses": []
+        },
+        {
+            "tag": "lift",
+            "patterns": ["lift","elevator","in","hostel","and","where"],
+            "responses": []
+        },
+        {
+            "tag": "room_capacity",
+            "patterns": ["what","is","the","capacity", "quantity", "of","each","room"],
+            "responses": []
+        },
+        {
+            "tag": "plant_room",
+            "patterns": ["can","i","have","a","plant", "tree", "in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "microwave_room",
+            "patterns": ["can","i","have","a","microwave","in","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "roommate_change",
+            "patterns": ["how","can","i","request","a","change","of","roommates", "friend", "partner"],
+            "responses": []
+        },
+        {
+            "tag": "room_cleaning",
+            "patterns": ["how","can","i","request","a","room","cleaning", "hygene", "floor", "wipe", "service"],
+            "responses": []
+        },
+        {
+            "tag": "guest_rules",
+            "patterns": ["are","there","any","rules", "protocol", "for","guests","father", "mother", "brother", "uncle", "aunt", "stay", "visiting","my","room"],
+            "responses": []
+        },
+        {
+            "tag": "noise_complaint",
+            "patterns": ["how","do","i","report","a","noise", "loud", "speakers", "high", "volume", "complaint","in","my","hostel"],
+            "responses": []
+        },
+        {
+            "tag": "other_restrictions",
+            "patterns": ["are","there","any","restrictions"],
+            "responses": []
+        },
+        {
+            "tag": "room_private_bathroom",
+            "patterns": ["can","i","request","for","a","room","with","a","private", "personal", "bathroom", "washroom"],
+            "responses": []
+        },
+        {
+            "tag": "last_entry_time",
+            "patterns": ["last","entry","time","in","hostel", "dead", "deadline", "night"],
+            "responses": []
+        },
+        {
+            "tag": "leave_application_recp",
+            "patterns": ["to","whom","should","i","address","write", "forward", "send", "the","leave", "sick", "application"],
+            "responses": []
+        },
+        {
+            "tag": "tv_mess",
+            "patterns": ["do", "is", "can", "we", "have", "tv", "television", "in", "the", "mess", "food", "hall"],
+            "responses": []
+        },
+        {
+            "tag": "mess_offdays",
+            "patterns": ["what", "when", "off", "offdays", "holiday", "of", "mess"],
+            "responses": []
+        },
+        {
+            "tag": "mess_special",
+            "patterns": ["do", "we", "when", "have", "special", "mess", "day", "food"],
+            "responses": []
+        },
+        {
+            "tag": "veg_issues",
+            "patterns": ["what", "to", "do", "if", "am", "pure", "veg"],
+            "responses": []
+        },
+        {
+            "tag": "hii_hello",
+            "patterns": ["hii", "hi", "hiii", "hello", "helloo"],
+            "responses": []
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you","thanks","tq","thanku","txn"],
+            "responses": []
+        },
+        {
+            "tag": "no",
+            "patterns": ["no"],
+            "responses": []
+        },
+        {
+            "tag": "ragging",
+            "patterns": ["ragging", "allowed", "in", "hostel", "juniors", "seniors", "safe"],
+            "responses": []
+        },
+        {
+            "tag": "breakfast",
+            "patterns": ["can", "you", "tell", "the", "morning", "breakfast", "meal", "time"],
+            "responses": []
+        },
+        {
+            "tag": "dinner",
+            "patterns": ["can", "you", "tell", "the", "night", "dinner", "meal", "time"],
+            "responses": []
+        },
+        {
+            "tag": "lunch_time",
+            "patterns": ["can", "you", "tell", "the", "lunch", "noon", "afternoon", "time"],
+            "responses": []
+        },
+        {
+            "tag": "evening_snacks",
+            "patterns": ["can", "you", "tell", "the", "evening", "snacks", "time"],
+            "responses": []
+        },
+        {
+            "tag": "outside_friends",
+            "patterns": ["How", "do", "i", "enter", "call", "bring", "my", "friends", "in", "the", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "newspaper",
+            "patterns": ["how", "can", "i", "read", "get", "news", "paper", "newspaper", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "stationary",
+            "patterns": ["is", "any", "stationary", "pen", "pencil", "stores", "photocopy", "xerox", "print", "colour", "in", "nearby"],
+            "responses": []
+        },
+        {
+            "tag": "photocopy_machine",
+            "patterns": ["is", "any", "do", "we", "have", "photocopy", "machine", "in", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "medical_facility",
+            "patterns": ["is", "any", "medical", "facility", "first", "aid", "firstaid", "in", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "sports",
+            "patterns": ["dose", "the", "hostel", "has", "volleyball", "football", "gym", "tt", "table", "tennis", "badminton", "chess", "pickle", "ball", "facility"],
+            "responses": []
+        },
+        {
+            "tag": "garden",
+            "patterns": ["is", "there", "any", "garden", "near,", "nearby", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "study_table_chair",
+            "patterns": ["can", "hostel", "provided", "study", "chair", "studytable", "table", "or", "not"],
+            "responses": []
+        },
+        {
+            "tag": "emergency_contact",
+            "patterns": ["For", "an", "emergency,", "whom", "I", "contact"],
+            "responses": []
+        },
+        {
+            "tag": "library",
+            "patterns": ["is", "there", "library", "in", "the", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "dustbin",
+            "patterns": ["is", "there", "where", "are", "dustbin", "bin", "the", "hostel"],
+            "responses": []
+        },
+        {
+            "tag": "hostel_address",
+            "patterns": ["what", "tell", "me", "is", "the", "hostel", "address", "location"],
+            "responses": []
+        },
+        {
+            "tag": "wifi_issues",
+            "patterns": ["what", "tell", "wifi", "wi-fi", "issue", "if", "not", "data", "working", "internet"],
+            "responses": []
+        },
+        {
+            "tag": "electricity_issues",
+            "patterns": ["what", "to", "do", "tell", "current", "electric", "electricity", "issue", "problem", "if", "not", "working"],
+            "responses": []
+        },
+        {
+            "tag": "mess_issues",
+            "patterns": ["what", "to", "do", "tell", "mess", "food", "meal", "unclean", "bad", "issue", "problem", "if", "not"],
+            "responses": []
+        },
+        {
+            "tag": "water_issues",
+            "patterns": ["what", "to", "do", "tell", "water", "drinking", "quality", "unclean", "bad", "polluted", "issue", "problem", "if", "not"],
+            "responses": []
+        },
+        {
+            "tag": "other_issues",
+            "patterns": ["what", "to", "do", "tell", "issue", "problem", "bad", "broken", "not-working", "if", "not"],
+            "responses": []
+        }
+
+    ]
+  }
