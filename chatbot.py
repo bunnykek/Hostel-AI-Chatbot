@@ -16,7 +16,7 @@ import json
 from mongoDB import mongodb
 
 ERROR_THRESHOLD = 0.25
-CONFIDENCE_THRESHOLD = 0.5
+CONFIDENCE_THRESHOLD = 0
 
 
 class Chatbot:
@@ -89,14 +89,9 @@ class Chatbot:
         # tf.reset_default_graph()
         # Build neural network
         net = tflearn.input_data(shape=[None, len(train_x[0])])
-        net = tflearn.fully_connected(net, 128)
-        net = tflearn.fully_connected(net, 128)
-        net = tflearn.fully_connected(net, 128)
-        # net = tflearn.fully_connected(net, 128)
-        # net = tflearn.fully_connected(net, 128)
-        # net = tflearn.fully_connected(net, 128)
-        # net = tflearn.fully_connected(net, 128)
-        # net = tflearn.fully_connected(net, 128)
+        net = tflearn.fully_connected(net, 300)
+        net = tflearn.fully_connected(net, 300)
+        net = tflearn.fully_connected(net, 300)
         net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
         net = tflearn.regression(net)
 
@@ -105,7 +100,7 @@ class Chatbot:
 
         if retrain:
             tf.compat.v1.reset_default_graph()
-            self.model.fit(train_x, train_y, n_epoch=1000, batch_size=128, show_metric=True)
+            self.model.fit(train_x, train_y, n_epoch=1000, batch_size=300, show_metric=True)
             self.model.save(os.path.join("trainedData", "model.tflearn"))
             return self.model
         
