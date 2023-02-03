@@ -1,7 +1,7 @@
 # things we need for NLP
 import os
 import nltk
-# nltk.download('punkt')
+nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 
