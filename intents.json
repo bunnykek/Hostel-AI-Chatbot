@@ -63,7 +63,7 @@
         },
         {
             "tag": "extra_bedding",
-            "patterns": ["how","do","i","request","extra","bedding","or","linens"],
+            "patterns": ["how","do","i","request","extra","bedding"],
             "responses": []
         },
         {
